@@ -12,6 +12,14 @@ snippet cm
 	# ==== Parameters
 	#   ${2}<${3}>:: ${4}
 	#
+# Copyright snippet
+snippet cr
+	#
+	# Copyright `&enc[:2] == "utf" ? "©" : "(c)"` `strftime("%Y")` ${1:`g:snips_author`} <${2:`g:snips_email`}>
+	# All Rights Reserved.
+	#
+
+	${3}
 # param snippet
 snippet prm
 	${1}<${2}>:: ${3}
